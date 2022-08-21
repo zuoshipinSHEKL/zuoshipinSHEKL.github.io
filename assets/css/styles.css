@@ -47,8 +47,8 @@ a {
   width: 80%;
   height: 40%;
   background: linear-gradient(80deg, 
-            hsl(231°, 25%, 11%) 100%, 
-            hsl(75, 82%, 99%) 100%);
+            hsl(217, 80%, 80%) 10%, 
+            hsl(217, 85%, 70%) 48%);
   position: absolute;
   left: 0;
   right: 0;
