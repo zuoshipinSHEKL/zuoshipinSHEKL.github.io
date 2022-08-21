@@ -4,8 +4,8 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   /*========== Colors ==========*/
-  --first-color: hsl(217, 75%, 80%);
-  --body-color: hsl(211, 100%, 95%);
+  --first-color: hsl(75, 75%, 60%);
+  --body-color: hsl(231, 25%, 11%);
   
   /*========== Font and typography ==========*/
   --body-font: 'Montserrat Alternates', sans-serif;
@@ -36,7 +36,7 @@ a {
 .button {
   position: relative;
   background-color: var(--first-color);
-  color: #fff;
+  color: #000;
   padding: .9rem 2.20rem;
   border-radius: 3rem;
   transition: .4s;
@@ -47,8 +47,8 @@ a {
   width: 80%;
   height: 40%;
   background: linear-gradient(80deg, 
-            hsl(217, 80%, 80%) 10%, 
-            hsl(217, 85%, 70%) 48%);
+            hsl(75, 80%, 80%) 10%, 
+            hsl(75, 85%, 49%) 48%);
   position: absolute;
   left: 0;
   right: 0;
@@ -114,11 +114,11 @@ a {
 }
 
 .button:hover .button__cone {
-  transform: translate(-38px, -10px) scale(1.2);
+  transform: translate(-50px, -10px) scale(1.2);
 }
 
 .button:hover .button__torus {
-  transform: translate(7px, -32px) scale(1.1);
+  transform: translate(-8px, -32px) scale(1.1);
 }
 
 .button:hover .button__icosahedron {
