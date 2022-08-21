@@ -4,8 +4,8 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   /*========== Colors ==========*/
-  --first-color: hsl(231°, 25%, 11%);
-  --body-color: hsl(75, 82%, 99%);
+  --first-color: hsl(75°, 82%, 99%);
+  --body-color: hsl(231°, 25%, 11%);
   
   /*========== Font and typography ==========*/
   --body-font: 'Montserrat Alternates', sans-serif;
